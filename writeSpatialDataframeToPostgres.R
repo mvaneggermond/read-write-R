@@ -7,7 +7,7 @@ source("_connections/connections.R")
 
 # Dataframe
 col1 = c(1, 2, 3,47.54758900000001, 7.590734883555875)
-col2 = c("aa", "bb", "cc",lat,lon)
+col2 = c("aa", "bb", "cc","lat","lon")
 df = data.frame(col1, col2)
 
 # Convert to SF
